@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="modals-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 3rd modal -->
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn3">Share a Listing</button>
+
+    <!-- The Modal -->
+    <div id="myModal3" class="modal3">
+
+        <!-- Modal content -->
+        <div class="modal-content3">
+            <span class="close3">&times;</span>
+            <h4>Begin your home search</h4>
+            <form class="personal-data">
+                <input type="text" name="Name" class="name" placeholder="Name...">
+                <input type="text" name="Name" class="name" placeholder="Current Address">
+                <input type="text" name="Name" class="name" placeholder="Mobile Number">
+                <input type="email" name="Name" class="name" placeholder="email">
+            </form>
+
+            <hr />
+            <h4 class="financing-status">What's your financing status?</h4>
+            <form class="fin-sta-radio">
+                <div class="fin-sta-radio-top3">
+                    <input type="radio" name="status" value="Cash-buyer">
+                    <label for="html">Cash buyer</label>
+                    <input type="radio" name="status" value="approved">
+                    <label for="css">approved</label>
+                    <input type="radio" name="status" value="Pre-approved">
+                    <label for="javascript">Pre-approved</label>
+                </div>
+                <div class="fin-sta-radio-last2">
+                    <input type="radio" name="status" value="Needs-pre-approved">
+                    <label for="css">Needs-pre-approved</label>
+                    <input type="radio" name="status" value="Not-sure-yet">
+                    <label for="javascript">Not sure yet</label>
+                </div>
+            </form>
+            <hr />
+
+            <!-- range started -->
+            <h4 class="financing-status">What's your budget?</h4>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="slider-track"></div>
+                    <input class="range-1" type="range" min="500" max="15000" value="3000" id="slider-1"
+                        oninput="slideOne()" autofocus>
+                    <input class="range-1" autofocus type="range" min="500" max="15000" value="12000" id="slider-2"
+                        oninput="slideTwo()">
+                </div>
+                <div class="values">
+                    <span id="range1">
+                        $500
+                    </span>
+                    <span id="range2">
+                        $15k
+                    </span>
+                </div>
+            </div>
+            <div class="modal-cal">
+                <div class="modal-cal-btn1">
+                    <p>50.000</p>
+                    <img width="12" height="15" src="images/dollar.png" alt="">
+                </div>
+                <div class="modal-cal-btn2">
+                    <p>3.500.000</p>
+                    <img width="12" height="15" src="images/dollar.png" alt="">
+                </div>
+            </div>
+            <br />
+            <hr />
+            <h4 class="financing-status">What type of home are you interested in?</h4>
+            <div class="home-types-check">
+                <div class="single-family"><input type="checkbox" name="Single-family" value="Bike">
+                    <label for="vehicle1">Single family</label>
+                </div>
+                <div class="condo-detached"><input type="checkbox" name="Condo-Detached" value="Car">
+                    <label for="vehicle2">Condo Detached</label>
+                </div>
+                <div class="condominium-attached"><input type="checkbox" name="Condominium-Attached" value="Boat">
+                    <label for="vehicle3"> Condominium Attached</label>
+                </div>
+                <div class="townhouse"><input type="checkbox" name="Townhouse" value="Boat">
+                    <label for="vehicle3"> Townhouse</label>
+                </div>
+                <div class="high-rise"><input type="checkbox" name="High-rise" value="Boat">
+                    <label for="vehicle3"> High-rise</label>
+                </div>
+            </div>
+            <div class="let-go-btn">
+                <p>save</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>

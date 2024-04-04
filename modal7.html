@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modals-style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 4rd modal -->
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn7">Share a Listing</button>
+
+    <!-- The Modal -->
+    <div id="myModal7" class="modal7">
+
+        <!-- Modal content -->
+        <div class="modal-content7">
+            <span class="close7">&times;</span>
+            <h4>Share a listing that you're interested in...</h4>
+            <form class="personal-data">
+                <input type="text" name="Name" class="name" value="Listinglinkhomeaddress/montana/whitehouse/zenlo.com">
+                <input type="text" name="Name" class="name" placeholder="Listing Address (Optional)">
+            </form>
+            <p class="m-c6-p1">Recommended</p>
+            <div class="modal-content7-crosal">
+                <h4>Choose a photo</h4>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="slide">
+                            <img class="carousel-img1" src="images/state house img1.jpg" alt="Slide 1">
+                        </div>
+                        <div class="slide">
+                            <img class="carousel-img2" src="images/state house img2.jpg" alt="Slide 2">
+                        </div>
+                        <div class="slide">
+                            <img class="carousel-img3" src="images/state house img1.jpg" alt="Slide 3">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </div>
+            <textarea class="modal-content7-textarea" name="w3review" rows="6" cols="50"
+                placeholder="What do you like about this listings?"></textarea>
+            <div class="let-go-btn">
+                <p>Share</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script7.js"></script>
+</body>
+
+</html>

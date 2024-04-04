@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+/* Header start */
+.logo>h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #333333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90vw;
+}
+
+/* Header end */
+
+
+/* sec1 started */
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 100px auto 0 auto;
+    margin-left: 50px;
+}
+
+.sec1>button {
+    width: 40% !important;
+    height: 45px !important;
+    border-radius: 8px !important;
+    background-color: #333333 !important;
+    border: none !important;
+    color: #fff !important;
+    font-size: 1.05em !important;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* sec1 ended */
+
+/* sec2 started */
+.sec2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5px 50px;
+    margin-bottom: 150px;
+}
+
+.sec2-1 {
+    width: 20%;
+    padding-top: 20px;
+
+}
+
+.sec2-2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 20px;
+}
+
+.sec2-3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+
+}
+
+.sec2-1>h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #B2B2B2;
+}
+
+.sec2-1-p1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    color: #B2B2B2;
+}
+
+.sec2-2>p {
+    color: #B2B2B2;
+}
+
+.sec2-p1 {
+    background-color: #FFF4D8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.sec2-p1-1 {
+    display: flex;
+    gap: 5px;
+}
+
+.sec2-p1-2 {
+    color: #F0AD00;
+}
+
+.sec2-p2 {
+    display: flex;
+    font-size: 0.80em;
+    align-items: center;
+    gap: 5px;
+}
+
+.line {
+    width: 80%;
+    height: 1px;
+    background-color: #B2B2B2;
+}
+
+
+.p-center {
+    text-align: center;
+}
+
+
+.sec2-3-p1 {
+    display: flex;
+    gap: 5px;
+    color: #B2B2B2;
+}
+
+.sec2-3-p2 {
+    display: flex;
+    gap: 5px;
+    color: #B2B2B2;
+}
+
+.sec2-3-p3 {
+    display: flex;
+    gap: 5px;
+    color: #B2B2B2;
+}
+
+.sec2-3-p4 {
+    display: flex;
+    gap: 5px;
+    color: #B2B2B2;
+}
+
+.sec2-3-p5 {
+    display: flex;
+    gap: 5px;
+    color: #B2B2B2;
+}
+
+.line-2 {
+    width: 60%;
+    height: 1px;
+    background-color: #B2B2B2;
+}
+
+/* sec2 ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1st page modal */
+
+/* The Modal (background) */
+
+/* .modal::-webkit-scrollbar {
+    display: none;
+  } */
+.modal {
+    /* display: none; */
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 60px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    margin: 0 auto !important;
+    width: 100%;
+    /* Full width */
+    height: fit-content;
+    /* Full height */
+    overflow-y: scroll !important;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-left: 50px;
+    padding-bottom: 150px !important;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 80vh;
+    overflow-y: scroll !important;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content-con>h4 {
+    text-align: center;
+}
+
+
+/* range control with two control started */
+
+
+.wrapper {
+    position: relative;
+    width: 70vmin;
+    background-color: #ffffff;
+    padding: 0px 40px 0px 60px;
+    border-radius: 10px;
+    /* margin-top: -10px; */
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 18px;
+}
+
+.range-1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.slider-track {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.range-1::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+}
+
+.range-1::-moz-range-track {
+    -moz-appearance: none;
+    height: 5px;
+}
+
+.range-1::-ms-track {
+    appearance: none;
+    height: 5px;
+}
+
+.range-1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    background-color: #090909;
+    cursor: pointer;
+    margin-top: -9px;
+    pointer-events: auto;
+    border-radius: 50%;
+}
+
+.range-1::-moz-range-thumb {
+
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #000000;
+    pointer-events: auto;
+}
+
+.range-1::-ms-thumb {
+    appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    pointer-events: auto;
+}
+
+.range-1:active::-webkit-slider-thumb {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+}
+
+.values {
+
+    /* display: none; */
+    display: flex;
+    gap: 210px;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 10px !important;
+}
+
+.slider-track {
+    background-color: #DADAE5 !important;
+}
+
+
+/* range control with two control ended */
+
+/* calculator btn */
+.modal-cal-btn1 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.modal-cal-btn2 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.modal-cal {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    /* justify-content: center; */
+    margin-left: 65px;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+
+
+.slidecontainer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.slider {
+    width: 55%;
+    height: 5px;
+    overflow: visible !important;
+    margin-left: 80px;
+    background-color: transparent !important;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    width: 5px;
+    height: 5px;
+    background: #04AA6D !important;
+    cursor: pointer !important;
+}
+
+.slider::-moz-range-thumb {
+
+    height: 20px;
+    margin-top: 4px;
+    background: transparent !important;
+}
+
+
+
+
+.slidecontainer-cal {
+    display: flex;
+    margin-left: 70px;
+    gap: 230px;
+    margin-top: -30px;
+}
+
+.modal-cal-btn3 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.modal-cal-btn4 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.modal-content-radio1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content-radio1>h4 {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.modal-content-radio1>input {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #000 !important;
+}
+
+.modal-content-radio1-btn {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+/* submit button */
+
+.modal-content-submit-btn{
+    width: 90%;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-content-submit-btn:hover{
+    transform: scale(1.02);
+}
+
+
+/* 1st page modal ended*/
+
+
+/* another modals started */
+
+/* another modals ended */

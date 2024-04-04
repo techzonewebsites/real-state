@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.2/css/themes/default/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>White Label Real State</title>
+</head>
+
+<body>
+    <!-- Header started -->
+    <div class="header">
+        <div class="logo">
+            <h4>Logo</h4>
+        </div>
+        <div class="logout">Logout</div>
+    </div>
+    <!-- Header ended -->
+
+    <!-- sec1 started -->
+    <div class="sec1">
+        <button id="myBtn">Share a Listing</button>
+    </div>
+
+    <!-- sec1 ended -->
+
+    <!-- sec2 started -->
+    <div class="sec2">
+        <div class="sec2-1">
+            <h5>Invite Family and Friends</h5>
+            <div class="sec2-1-p1">
+                <img width="18" height="18" src="images/plus.png" alt="plus.img">
+                <p>Send an Invite</p>
+            </div>
+        </div>
+        <div class="sec2-2">
+            <p>Only you and the realtor can see these notifications</p>
+            <div class="sec2-p1">
+                <div class="sec2-p1-1">
+                    <img width="18" height="18" src="images/alert.png" alt="warning">
+                    <p>You need pre-approval for finance</p>
+                </div>
+                <div class="sec2-p1-2">
+                    <p>Fill form</p>
+                </div>
+            </div>
+            <div class="sec2-p2">
+                <p>Sort by: Latest</p>
+                <img width="12" height="12" src="images/upload.png" alt="up">
+                <div class="line"></div>
+            </div>
+            <p class="p-center">Shared listings will appear here, as well as listing you may be interested in. <br />
+                <span>Share a Listing</span>to get started.
+            </p>
+        </div>
+        <div class="sec2-3">
+            <div class="sec2-3-p1">
+                <img width="18" height="18" src="images/thumbtacks.png" alt="pinned">
+                <p>Pinned Listing</p>
+            </div>
+            <div class="sec2-3-p2">
+                <img width="18" height="18" src="images/view.png" alt="eyes">
+                <p>My Showing</p>
+            </div>
+            <div class="sec2-3-p3">
+                <img width="18" height="18" src="images/message.png" alt="message">
+                <p>Interested in Bying</p>
+            </div>
+            <div class="sec2-3-p4">
+                <img width="18" height="18" src="images/folder.png" alt="listing">
+                <p>All Listing</p>
+            </div>
+            <div class="line-2"> </div>
+            <div class="sec2-3-p5">
+                <img width="18" height="18" src="images/settings.png" alt="settng">
+                <p>Edit My Search</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- sec2 ended -->
+
+
+    <!-- 1st page modal started -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-content-con">
+                <br /><br />
+                <h3>Lets get started with your home financing question</h3><br />
+                <p>To get you the best deal, we'll reach out to several mortage brokers and loan officers who have
+                    matched well with your real estate agent, including those who your real estate agent recommends.</p>
+                <br />
+                <p>Mortage brokers and loan officers who are available and match with you will reach out to you within
+                    this app.</p><br />
+                <h3>Just a few question...</h3><br /><br /><br />
+                <h4>How much monthly payment you can afford?</h4>
+                <div class="wrapper">
+
+                    <div class="container">
+                        <div class="slider-track"></div>
+                        <input class="range-1" type="range" min="500" max="15000" value="3000" id="slider-1"
+                            oninput="slideOne()" autofocus>
+                        <input class="range-1" autofocus type="range" min="500" max="15000" value="12000" id="slider-2"
+                            oninput="slideTwo()">
+                    </div>
+                    <div class="values">
+                        <span id="range1">
+                            $500
+                        </span>
+                        <span id="range2">
+                            $15k
+                        </span>
+                    </div>
+                </div>
+                <div class="modal-cal">
+                    <div class="modal-cal-btn1">
+                        <p>1.200</p>
+                        <img width="12" height="15" src="images/dollar.png" alt="">
+                    </div>
+                    <div class="modal-cal-btn2">
+                        <p>10.000</p>
+                        <img width="12" height="15" src="images/dollar.png" alt="">
+                    </div>
+                </div>
+                <br />
+                <hr />
+                <br />
+                <h4>How much down payment you can afford?</h4>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <div class="slidecontainer-cal">
+                    <p>0%</p>
+                    <p>100%</p>
+                </div>
+                <div class="modal-cal-btn3">
+                    <p>10.000</p>
+                    <p>%</p>
+                </div>
+                <br />
+                <h4>What's your credit store?</h4>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+                <div class="slidecontainer-cal">
+                    <p>350</p>
+                    <p>850</p>
+                </div>
+                <div class="modal-cal-btn4">
+                    <p class="722">722</p><br />
+
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div class="modal-content-radio1">
+                    <h5>What's your credit store?</h5>
+                    <div class="modal-content-radio1-btn">
+                        <input type="radio" id="html" name="store" value="Yes">
+                        <label for="html">Yes</label>
+                        <input type="radio" id="css" name="store" value="No">
+                        <label for="css">No</label>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="modal-content-radio1">
+                    <h5>Any bankruptcy or judgements in the past 7 years?</h5>
+                    <div class="modal-content-radio1-btn">
+                        <input type="radio" id="html" name="judgements" value="Yes">
+                        <label for="html">Yes</label>
+                        <input type="radio" id="css" name="judgements" value="No">
+                        <label for="css">No</label>
+                    </div>
+                </div>
+                <div class="modal-content-submit-btn">
+                    <p>Submit</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 1st page modal ended -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

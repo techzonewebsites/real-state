@@ -1,0 +1,1506 @@
+/* The Modal (background) */
+.modal2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #313030;
+    border-radius: 8px;
+    width: 40%;
+    height: 80vh;
+    overflow-y: scroll;
+
+}
+
+/* The Close Button */
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* modal-content started */
+
+.modal-content2>h4 {
+    text-align: center;
+}
+
+.personal-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.name {
+    margin: 0 auto;
+    width: 60%;
+    height: 30px;
+}
+
+.financing-status {
+    text-align: left !important;
+    margin-left: 30px;
+}
+
+.fin-sta-radio-top3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.fin-sta-radio-last2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* range started */
+
+.wrapper {
+    position: relative;
+    width: 70vmin;
+    background-color: #ffffff;
+    padding: 0px 40px 0px 60px;
+    border-radius: 10px;
+    /* margin-top: -10px; */
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 18px;
+}
+
+.range-1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.slider-track {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.range-1::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+}
+
+.range-1::-moz-range-track {
+    -moz-appearance: none;
+    height: 5px;
+}
+
+.range-1::-ms-track {
+    appearance: none;
+    height: 5px;
+}
+
+.range-1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    background-color: #090909;
+    cursor: pointer;
+    margin-top: -9px;
+    pointer-events: auto;
+    border-radius: 50%;
+}
+
+.range-1::-moz-range-thumb {
+
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #000000;
+    pointer-events: auto;
+}
+
+.range-1::-ms-thumb {
+    appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    pointer-events: auto;
+}
+
+.range-1:active::-webkit-slider-thumb {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+}
+
+.values {
+
+    /* display: none; */
+    display: flex;
+    gap: 210px;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 10px !important;
+}
+
+.slider-track {
+    background-color: #DADAE5 !important;
+}
+
+/* Range ended */
+
+/* checkbox started */
+
+.home-types-check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-family,
+.condo-detached,
+.condominium-attached,
+.townhouse,
+.high-rise {
+    width: 200px;
+    text-align: left !important;
+}
+
+
+/* Lets go btn started */
+
+.let-go-btn {
+    width: 100px;
+    height: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+
+/* Lets go btn ended */
+
+/* 2nd modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3rd model started */
+/* The Modal (background) */
+.modal3 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content3 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #313030;
+    border-radius: 8px;
+    width: 40%;
+    height: 80vh;
+    overflow-y: scroll;
+
+}
+
+/* The Close Button */
+.close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* modal-content started */
+
+.modal-content3>h4 {
+    text-align: center;
+}
+
+.personal-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-data>input {
+    border: 1px solid #bebebe !important;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.name {
+    margin: 0 auto;
+    width: 60%;
+    height: 30px;
+}
+
+.financing-status {
+    text-align: left !important;
+    margin-left: 30px;
+}
+
+.fin-sta-radio-top3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.fin-sta-radio-last2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* range started */
+
+.wrapper {
+    position: relative;
+    width: 70vmin;
+    background-color: #ffffff;
+    padding: 0px 40px 0px 60px;
+    border-radius: 10px;
+    /* margin-top: -10px; */
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 18px;
+}
+
+.range-1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.slider-track {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.range-1::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+}
+
+.range-1::-moz-range-track {
+    -moz-appearance: none;
+    height: 5px;
+}
+
+.range-1::-ms-track {
+    appearance: none;
+    height: 5px;
+}
+
+.range-1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    background-color: #090909;
+    cursor: pointer;
+    margin-top: -9px;
+    pointer-events: auto;
+    border-radius: 50%;
+}
+
+.range-1::-moz-range-thumb {
+
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #000000;
+    pointer-events: auto;
+}
+
+.range-1::-ms-thumb {
+    appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    pointer-events: auto;
+}
+
+.range-1:active::-webkit-slider-thumb {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+}
+
+.values {
+
+    /* display: none; */
+    display: flex;
+    gap: 210px;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 10px !important;
+}
+
+.slider-track {
+    background-color: #DADAE5 !important;
+}
+
+.modal-cal-btn1 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.modal-cal-btn2 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.modal-cal {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    /* justify-content: center; */
+    margin-left: 30px;
+    gap: 20px;
+    /* padding-top: 10px; */
+    height: 40px !important;
+    margin-top: 10px !important;
+}
+
+/* Range ended */
+
+/* checkbox started */
+
+.home-types-check {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 30px;
+}
+
+.single-family,
+.condo-detached,
+.condominium-attached,
+.townhouse,
+.high-rise {
+    width: 200px;
+    text-align: left !important;
+}
+
+
+/* Lets go btn started */
+
+.let-go-btn {
+    width: 95%;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+
+/* 3rd model ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 4th modal started */
+
+/* The Modal (background) */
+.modal4 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content4 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #313030;
+    border-radius: 8px;
+    width: 25%;
+    height: fit-content;
+    overflow-y: scroll;
+
+}
+
+/* The Close Button */
+.close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* modal-content started */
+
+.modal-content4>h4 {
+    text-align: center;
+}
+
+.personal-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.name {
+    margin: 0 auto;
+    width: 90%;
+    height: 40px;
+}
+
+
+/* checkbox started */
+
+.home-types-check {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.single-family {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    width: 100%;
+    text-align: left !important;
+}
+
+
+/* Lets go btn started */
+
+.let-go-btn {
+    width: 95%;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+
+/* Lets go btn ended */
+/* 4th modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 5th modal started */
+
+/* The Modal (background) */
+.modal5 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content5 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+    height: fit-content;
+    overflow-y: hidden;
+
+}
+
+/* The Close Button */
+.close5 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* modal-content started */
+
+.modal-content5>h4 {
+    text-align: center;
+}
+
+/* Lets go btn started */
+
+.let-go-btn {
+    width: 95%;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+.modal-content5>p {
+    text-align: center !important;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Lets go btn ended */
+/* 5th modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 6th modal started */
+
+/* The Modal (background) */
+.modal6 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content6 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+    height: fit-content;
+    overflow-y: hidden;
+
+}
+
+/* The Close Button */
+.close6 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close6:hover,
+.close6:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* modal-content started */
+
+.modal-content6>h4 {
+    text-align: center;
+}
+
+/* Lets go btn started */
+
+.let-go-btn {
+    width: 95%;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+.m-c6-p2 {
+    text-align: center !important;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.m-c6-p1 {
+    font-size: 0.75em;
+    margin-top: -18px !important;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Lets go btn ended */
+/* 6th modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 7th modal started */
+
+/* The Modal (background) */
+.modal7 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content7 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    height: fit-content;
+    overflow-y: scroll;
+    overflow-y: hidden;
+
+}
+
+/* The Close Button */
+.close7 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close7:hover,
+.close7:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* modal-content started */
+
+.modal-content7>h4 {
+    text-align: center;
+}
+
+.modal-content7-crosal>h4 {
+    margin-left: 18px;
+}
+
+/* carousal started */
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    bottom: -40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.prev {
+    left: 160px;
+}
+
+.next {
+    right: 160px;
+}
+
+
+.modal-content7-textarea{
+    width: 98.5% !important;
+    margin-top: 50px;
+
+
+}
+
+/* Lets go btn started */
+
+.let-go-btn {
+    width: 95%;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+.m-c6-p2 {
+    text-align: center !important;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.m-c6-p1 {
+    font-size: 0.75em;
+    margin-top: -18px !important;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Lets go btn ended */
+/* 7th modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 8th modal started */
+
+/* The Modal (background) */
+.modal8 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content8 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    height: fit-content;
+    overflow-y: scroll;
+    overflow-y: hidden;
+
+}
+
+/* The Close Button */
+.close8 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close8:hover,
+.close8:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* modal-content started */
+
+
+.modal-content8-date1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.modal-content8-date1>input{
+    width: 150px;
+    height: 30px;
+}
+
+.modal-content8-date1>img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.modal-content8-date2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-content8-date2>input{
+    width: 150px;
+    height: 30px;
+}
+
+.modal-content8-date2>img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.modal-content8-plus{
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.modal-content8-plus-p{
+    cursor: pointer;
+}
+/* Lets go btn started */
+
+.save-btn {
+    width: 30%;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+
+/* Lets go btn ended */
+/* 8th modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 9th modal started */
+
+/* The Modal (background) */
+.modal9 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content9 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    height: fit-content;
+    overflow-y: scroll;
+    overflow-y: hidden;
+
+}
+
+/* The Close Button */
+.close9 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close9:hover,
+.close9:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.location{
+    width: 14px;
+    height: 14px;
+}
+
+
+/* modal-content started */
+
+
+.modal-content9-date1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.modal-content9-date1>input{
+    width: 100px;
+    height: 20px;
+}
+
+.radio-date{
+    width: 100px;
+    height: 20px;
+}
+
+.radi{
+    width: fit-content !important;
+}
+
+
+
+.modal-content9-date2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-content9-date2>input{
+    width: 100px;
+    height: 20px;
+}
+
+/* Lets go btn started */
+
+.Confirming-showing-btn {
+    width: 50%;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313030;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    cursor: pointer;
+}
+
+
+/* Lets go btn ended */
+/* 9th modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 10th modal started */
+
+/* modal-content started */
+
+/* Lets go btn started */
+
+
+
+.dp-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+
+/* Lets go btn ended */
+/* 10th modal ended */
