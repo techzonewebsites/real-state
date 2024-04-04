@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     overflow-y: visible;
     overflow-x: hidden;
 }
@@ -76,6 +76,134 @@ body{
     flex-direction: column;
     gap: 12px;
     padding-top: 20px;
+}
+
+
+.card {
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.dp-content {
+    flex: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-sec1 {
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+    align-items: center;
+}
+
+.dp-content1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.dp-content1-name>h5 {
+    font-size: 18px !important;
+}
+
+.dp-centent-icons>img {
+    width: 15px;
+    height: 15px;
+}
+
+.dp {
+    flex: 25%;
+}
+
+.dp-centent-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.dp-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Pre-approved-btn {
+    background-color: #add8e6;
+    border: 1px solid #add8e6;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.price-btn {
+    background-color: #90ee90;
+    border: 1px solid #90ee90;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.home-btn {
+    background-color: #ffb6c1;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.condo-btn {
+    background-color: #D0BDF0;
+    border: 1px solid #D0BDF0;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.card-sec2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.location{
+    width: 20px;
+    height: 20px;
+}
+
+.card-sec3{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.card-sec3>img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card-sec4{
+    display: flex;
+    width: 34%;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.star-img>img, .comment-img>img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 .sec2-3 {
@@ -505,7 +633,7 @@ body{
 
 /* submit button */
 
-.modal-content-submit-btn{
+.modal-content-submit-btn {
     width: 90%;
     border: 1px solid lightgray;
     margin: 0 auto;
@@ -519,7 +647,7 @@ body{
     cursor: pointer;
 }
 
-.modal-content-submit-btn:hover{
+.modal-content-submit-btn:hover {
     transform: scale(1.02);
 }
 
