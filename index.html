@@ -54,53 +54,6 @@
             <p class="p-center">Shared listings will appear here, as well as listing you may be interested in. <br />
                 <span>Share a Listing</span>to get started.
             </p>
-            <div class="card">
-                <div class="card-sec1">
-                    <div class="dp">
-                        <img class="dp-img" src="images/dp.jpeg" alt="dp">
-                    </div>
-                    <div class="dp-content">
-                        <div class="dp-content1">
-                            <div class="dp-content1-name">
-                                <h5>Buyer: Robert Dewey</h5>
-                            </div>
-                            <div class="dp-centent-icons">
-                                <img src="images/thumbtacks.png" alt="">
-                                <img src="images/view.png" alt="">
-                                <img src="images/message.png" alt="">
-                            </div>
-                        </div>
-                        <div class="dp-content2">
-                            <button class="Pre-approved-btn">Pre-approved</button>
-                            <button class="price-btn">$250-300k</button>
-                            <button class="home-btn">Home</button>
-                            <button class="condo-btn">Condo</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-sec2">
-                    <img class="location" src="images/pin.png" alt="location">
-                    <p>5760 John Ave, Rochester Hills, Ml 48307</p>
-                </div>
-                <div class="card-sec3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates molestias, aspernatur
-                        voluptas nam eius modi reiciendis dolor. Explicabo excepturi minus ducimus culpa pariatur omnis
-                        aliquam inventore illum qui placeat?</p>
-                    <img src="images/state house img1.jpg" alt="house-img">
-                </div>
-                <div class="card-sec4">
-                    <div class="star-img">
-                        <img src="images/star.png" alt="star">
-                        <img src="images/star.png" alt="star">
-                        <img src="images/star.png" alt="star">
-                        <img src="images/star.png" alt="star">
-                        <img src="images/star.png" alt="star">
-                    </div>
-                    <div class="comment-img">
-                        <img src="images/chat.png" alt="comment">
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="sec2-3">
             <div class="sec2-3-p1">
@@ -134,7 +87,7 @@
     <!-- 1st page modal started -->
 
     <!-- The Modal -->
-    <div id="myModal" style="display: none;" class="modal">
+    <div id="myModal" class="modal" style="display: none;">
 
         <!-- Modal content -->
         <div class="modal-content">
@@ -143,11 +96,9 @@
                 <br /><br />
                 <h3>Lets get started with your home financing question</h3><br />
                 <p>To get you the best deal, we'll reach out to several mortage brokers and loan officers who have
-                    matched well with your real estate agent, including those who your real estate agent recommends.
-                </p>
+                    matched well with your real estate agent, including those who your real estate agent recommends.</p>
                 <br />
-                <p>Mortage brokers and loan officers who are available and match with you will reach out to you
-                    within
+                <p>Mortage brokers and loan officers who are available and match with you will reach out to you within
                     this app.</p><br />
                 <h3>Just a few question...</h3><br /><br /><br />
                 <h4>How much monthly payment you can afford?</h4>
@@ -155,27 +106,27 @@
 
                     <div class="container">
                         <div class="slider-track"></div>
-                        <input class="range-1" type="range" min="500" max="15000" value="3000" id="slider-1"
+                        <input class="range-1" type="range" min="1" max="20000" value="500" id="slider-1"
                             oninput="slideOne()" autofocus>
-                        <input class="range-1" autofocus type="range" min="500" max="15000" value="12000" id="slider-2"
+                        <input class="range-1" autofocus type="range" min="1" max="20000" value="15000" id="slider-2"
                             oninput="slideTwo()">
                     </div>
                     <div class="values">
                         <span id="range1">
-                            $500
+                            $ 500
                         </span>
                         <span id="range2">
-                            $15k
+                            $ 15k+
                         </span>
                     </div>
                 </div>
                 <div class="modal-cal">
                     <div class="modal-cal-btn1">
-                        <p>1.200</p>
+                        <p class="minAmount">1.200</p>
                         <img width="12" height="15" src="images/dollar.png" alt="">
                     </div>
                     <div class="modal-cal-btn2">
-                        <p>10.000</p>
+                        <p class="maxAmount">10.000</p>
                         <img width="12" height="15" src="images/dollar.png" alt="">
                     </div>
                 </div>
@@ -184,34 +135,34 @@
                 <br />
                 <h4>How much down payment you can afford?</h4>
                 <div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                    <input oninput="getPaymentVal()" type="range" min="1" max="100" value="25" class="slider" id="payment">
                 </div>
                 <div class="slidecontainer-cal">
                     <p>0%</p>
                     <p>100%</p>
                 </div>
                 <div class="modal-cal-btn3">
-                    <p>10.000</p>
+                    <p class="showPaymentVal">10.000</p>
                     <p>%</p>
                 </div>
                 <br />
                 <h4>What's your credit store?</h4>
                 <div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <input oninput="getCreditVal()" type="range" min="350" max="850" value="722" class="slider" id="score">
                 </div>
                 <div class="slidecontainer-cal">
                     <p>350</p>
                     <p>850</p>
                 </div>
                 <div class="modal-cal-btn4">
-                    <p class="722">722</p><br />
+                    <p class="showCreditVal">722</p><br />
 
                 </div>
                 <br />
                 <hr />
                 <br />
                 <div class="modal-content-radio1">
-                    <h5>What's your credit store?</h5>
+                    <h5>Any collection in the past 7 years?</h5>
                     <div class="modal-content-radio1-btn">
                         <input type="radio" id="html" name="store" value="Yes">
                         <label for="html">Yes</label>
