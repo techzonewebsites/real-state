@@ -1386,9 +1386,14 @@ img {
     cursor: pointer;
 }
 
+.card-sec2{
+    display: flex;
+    align-items: center;
+}
+
 .location{
-    width: 14px;
-    height: 14px;
+    /* width: 14px; */
+    height: 18px;
 }
 
 
