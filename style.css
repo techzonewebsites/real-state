@@ -632,6 +632,8 @@ body {
 .modal-content-radio1-btn {
     margin-top: 5px;
     margin-bottom: 50px;
+    display: flex;
+    gap: 15px;
 }
 
 /* submit button */
